@@ -1,0 +1,11 @@
+frontend:
+  type: frontend
+  index_file_name: index.html
+  url_path: /
+  repo_path: frontend
+  assets_path: public
+  local_packages: ["/app/node_modules"]
+  install: ["npm", "install"]
+  build: ["npm", "run", "build"]
+  dev: ["HOST=0.0.0.0 npm", "run", "dev"]
+ 
